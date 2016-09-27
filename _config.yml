@@ -1,0 +1,22 @@
+# Site settings
+title: Walter Breakell
+author: Walter Breakell
+description: >
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: "https://wbreakell.github.io"
+twitter_username: wbreakell
+github_username: wbreakell
+dribbble_username: wbreakell
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+sass:
+  style: compressed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
