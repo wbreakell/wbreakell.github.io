@@ -1,0 +1,40 @@
+/* Headline */
+
+.c-headline {
+
+  &__title {
+    color: #505050;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 1.25rem;
+    position: relative;
+
+    @media (min-width: 544px) {
+      font-size: 2.25rem;
+    }
+
+    &::after {
+      border-bottom: 2px solid #d6d6d7;
+      bottom: 0;
+      content: "";
+      left: 0;
+      position: absolute;
+      width: 3.75rem;
+    }
+
+  }
+
+  &__description {
+    color: #888;
+    font-size: 1rem;
+    margin-top: 0;
+
+    @media (min-width: 544px) {
+      font-size: 1.25rem;
+      width: 27rem;
+    }
+
+  }
+
+}
