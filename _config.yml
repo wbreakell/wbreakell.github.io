@@ -13,7 +13,7 @@ dribbble_username: wbreakell
 
 # Build settings
 markdown: kramdown
-permalink: /:title/
+permalink: /blog/:title/
 sass:
   style: compressed
 exclude:
