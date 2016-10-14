@@ -6,9 +6,9 @@ description: >
 permalink: /blog/
 ---
 
-<ul class="u-mt4">
+<ul class="o-list u-mt4 u-mb4">
   {% for post in site.posts %}
-    <li class="c-post">
+    <li class="o-list__item c-post u-mb3">
       <h2 class="c-post__title">
         <a href="{{ post.url | prepend: site.baseurl }}">
           {{ post.title | escape }}

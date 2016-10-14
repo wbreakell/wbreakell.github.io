@@ -1,0 +1,19 @@
+/* List */
+
+$gutter-width: 4rem;
+
+.o-list {
+  align-items: baseline;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  list-style: none;
+  margin-left: -$gutter-width;
+  padding-left: 0;
+
+  &__item {
+    margin-left: $gutter-width;
+    width: 100%;
+  }
+
+}
