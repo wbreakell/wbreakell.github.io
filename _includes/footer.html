@@ -1,2 +1,22 @@
-<footer class="site-footer">
+<footer class="o-wrapper c-footer u-mt4 u-mb4">
+  <span class="c-footer__copyright">
+    &copy; {{ site.time | date: "%Y" }} {{ site.author | escape }}
+  </span>
+  <ul class="c-footer__list">
+    {% if site.twitter_username %}
+    <li class="c-footer__item">
+      <a class="c-footer__link" href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+    </li>
+    {% endif %}
+    {% if site.github_username %}
+    <li class="c-footer__item u-ml3">
+      <a class="c-footer__link" href="https://github.com/{{ site.github_username }}">Github</a>
+    </li>
+    {% endif %}
+    {% if site.dribbble_username %}
+    <li class="c-footer__item u-ml3">
+      <a class="c-footer__link" href="https://dribbble.com/{{ site.dribbble_username }}">Dribbble</a>
+    </li>
+    {% endif %}
+  </ul>
 </footer>
