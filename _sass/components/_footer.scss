@@ -3,8 +3,10 @@
 .c-footer {
   align-items: center;
   display: flex;
+  flex: none;
   flex-flow: column nowrap;
   justify-content: space-between;
+  width: 100%;
 
   @media (min-width: 768px) {
     align-items: baseline;

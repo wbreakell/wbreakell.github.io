@@ -3,9 +3,11 @@
 .c-header {
   align-items: center;
   display: flex;
+  flex: none;
   flex-flow: row nowrap;
   justify-content: space-between;
   padding-top: 2rem;
+  width: 100%;
 
   @media (min-width: 544px) {
     align-items: baseline;
