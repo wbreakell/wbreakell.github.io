@@ -92,13 +92,24 @@ samp {
 
 code,
 samp {
+  background-color: #f9f9f9;
+  border-radius: 3px;
+  color: #bf616a;
   font-size: 87.5%;
-  padding: 0.125em;
+  padding: 0.25em 0.5em;
 }
 
 pre {
   font-size: 87.5%;
-  overflow: scroll;
+  overflow-x: auto;
+  padding: 1rem;
+
+  > code {
+    background-color: transparent;
+    color: inherit;
+    padding: 0;
+  }
+
 }
 
 blockquote {

@@ -41,6 +41,14 @@
       font-size: 1.125rem;
     }
 
+    code,
+    samp {
+      border-radius: 0;
+      background-color: transparent;
+      color: inherit;
+      padding: 0;
+    }
+
   }
 
   &__link {

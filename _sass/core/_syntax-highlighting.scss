@@ -1,11 +1,11 @@
 /* Syntax Highlighting */
 
 .highlight {
-  background: #fff;
-  margin-bottom: 15px;
+  background: #f9f9f9;
+  margin: 0 0 1rem 0;
 
   .highlighter-rouge & {
-    background: #eef;
+    background: #f9f9f9;
   }
 
   .c     { color: #998; font-style: italic } // Comment
