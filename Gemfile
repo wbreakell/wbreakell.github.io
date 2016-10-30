@@ -1,4 +1,9 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 ruby RUBY_VERSION
 
-gem "github-pages", group: :jekyll_plugins
+gem 'github-pages', :group => :jekyll_plugins
+
+group :test do
+  gem 'html-proofer'
+  gem 'rake'
+end
