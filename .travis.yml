@@ -1,0 +1,12 @@
+language: ruby
+cache: bundler
+rvm:
+  - ruby-head
+branches:
+  only:
+    - master
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+notifications:
+  email: false
