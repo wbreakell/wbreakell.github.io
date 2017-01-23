@@ -1,0 +1,29 @@
+/* Tile */
+
+.c-tile {
+  align-items: center;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 200px;
+  justify-content: center;
+  width: 100%;
+
+  @media (min-width: 992px) {
+    width: 254px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 224px;
+  }
+
+  &__link {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+  }
+
+}
