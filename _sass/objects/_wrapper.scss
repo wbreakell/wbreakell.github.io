@@ -17,19 +17,19 @@ $wrapper-width-4: 1140px;
     display: table;
   }
 
-  @media (min-width: 544px) {
+  @media (min-width: 34rem) {
     max-width: $wrapper-width-1;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 48rem) {
     max-width: $wrapper-width-2;
   }
 
-  @media (min-width: 992px) {
+  @media (min-width: 62rem) {
     max-width: $wrapper-width-3;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 75rem) {
     max-width: $wrapper-width-4;
   }
 
