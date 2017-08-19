@@ -36,5 +36,5 @@ However, in our simple example, we just want to build the same string that the t
 Although our `uppercase` tag function is extremely simple, it demonstrates how flexible and powerful tagged template literals can be. Tagged template literals could be used to perform safe HTML escaping for strings, preventing XSS attacks. You could use tagged template literals to apply translation and internationalization to your codebase. There are already a number of exciting open source projects, like [styled-components][styled-components] and [graphql-tag][graphql-tag], using tagged template literals in really unique ways. This syntax and functionality provides JavaScript developers with an incredibly versatile approach for transforming and modifying templates.
 
 [rest-parameter]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
-[styled-components]: https://www.styled-components.com/
+[styled-components]: https://github.com/styled-components/styled-components
 [graphql-tag]: https://github.com/apollographql/graphql-tag
