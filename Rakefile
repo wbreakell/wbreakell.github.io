@@ -4,6 +4,7 @@ task :default => :test
 
 task :test do
   options = {
+    :check_html => true,
     :disable_external => true
   }
   sh 'bundle exec jekyll build'
