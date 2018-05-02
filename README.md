@@ -3,5 +3,5 @@
 > Personal website
 
 
-This is the source code for the [wbreakell.io](http://wbreakell.io/) website,
-powered by [Jekyll](http://jekyllrb.com/).
+This is the source code for the [wbreakell.io](https://wbreakell.io/) website,
+powered by [Jekyll](https://jekyllrb.com/).
