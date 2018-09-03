@@ -14,7 +14,9 @@ permalink: /blog/
           {{ post.title | escape }}
         </a>
       </h2>
-      <span class="c-post__date">{{ post.date | date: "%m.%d.%Y" }} –</span>
+      <time class="c-post__date" datetime="{{ post.date | date_to_xmlschema }}">
+        {{ post.date | date: "%m.%d.%Y" }} –
+      </time>
       <p class="c-post__excerpt">
         {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
       </p>
