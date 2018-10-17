@@ -4,16 +4,22 @@
   </a>
   <a class="c-header__logo" href="{{ "/" | relative_url }}">WB</a>
   <nav class="c-header__nav">
-    {% for my_page in site.pages reversed %}
-      {% if my_page.title and page.url == my_page.url %}
-      <a class="c-header__link is-active" href="{{ my_page.url | relative_url }}">
-        {{ my_page.title | escape }}
-      </a>
-      {% elsif my_page.title %}
-      <a class="c-header__link" href="{{ my_page.url | relative_url }}">
-        {{ my_page.title | escape }}
-      </a>
-      {% endif %}
-    {% endfor %}
+    <ul class="u-m0 u-p0">
+      {% for my_page in site.pages reversed %}
+        {% if my_page.title and page.url == my_page.url %}
+        <li class="c-header__item">
+          <a class="c-header__link is-active" href="{{ my_page.url | relative_url }}">
+            {{ my_page.title | escape }}
+          </a>
+        </li>
+        {% elsif my_page.title %}
+        <li class="c-header__item">
+          <a class="c-header__link" href="{{ my_page.url | relative_url }}">
+            {{ my_page.title | escape }}
+          </a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
   </nav>
 </header>

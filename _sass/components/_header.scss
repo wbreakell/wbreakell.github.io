@@ -49,9 +49,19 @@
 
   }
 
+  &__item {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 1.5rem;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+
+  }
+
   &__link {
     color: #888;
-    margin-left: 1.5rem;
     text-decoration: none;
     transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
 
@@ -62,10 +72,6 @@
 
     &.is-active {
       color: #505050;
-    }
-
-    &:first-of-type {
-      margin-left: 0;
     }
 
   }
