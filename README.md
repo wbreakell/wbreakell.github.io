@@ -1,4 +1,4 @@
-# wbreakell.github.io [![Build Status](https://travis-ci.org/wbreakell/wbreakell.github.io.svg?branch=master)](https://travis-ci.org/wbreakell/wbreakell.github.io)
+# wbreakell.github.io
 
 > Personal website
 
