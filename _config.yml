@@ -6,7 +6,7 @@ description: >
   web applications.
 baseurl: ""
 url: "https://wbreakell.io"
-twitter_username: wbreakell
+mastodon_username: wbreakell
 github_username: wbreakell
 dribbble_username: wbreakell
 
