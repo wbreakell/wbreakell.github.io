@@ -21,20 +21,20 @@
     }
 
     a {
-      color: #505050;
+      color: #202124;
       text-decoration: none;
     }
 
   }
 
   &__date {
-    color: #d6d6d7;
+    color: #5f6368;
     font-size: 0.875rem;
     letter-spacing: 0.05rem;
   }
 
   &__excerpt {
-    color: #888;
+    color: #3c4043;
     font-size: 0.875rem;
     margin-top: 0.3rem;
 
@@ -53,8 +53,8 @@
   }
 
   &__link {
-    border-bottom: 2px solid #d6d6d7;
-    color: #505050;
+    border-bottom: 2px solid #dadce0;
+    color: #3c4043;
     font-size: 0.875rem;
     padding-bottom: 2px;
     text-decoration: none;
@@ -66,7 +66,7 @@
 
     &:focus,
     &:hover {
-      border-color: #888;
+      border-color: #5f6368;
     }
 
   }

@@ -14,7 +14,7 @@
   }
 
   &__copyright {
-    color: #888;
+    color: #5f6368;
     display: block;
     font-size: 0.875rem;
     order: 2;
@@ -48,8 +48,8 @@
   }
 
   &__link {
-    border-bottom: 2px solid #d6d6d7;
-    color: #505050;
+    border-bottom: 2px solid #dadce0;
+    color: #3c4043;
     font-size: 0.875rem;
     padding-bottom: 2px;
     text-decoration: none;
@@ -61,7 +61,7 @@
 
     &:focus,
     &:hover {
-      border-color: #888;
+      border-color: #5f6368;
     }
 
   }

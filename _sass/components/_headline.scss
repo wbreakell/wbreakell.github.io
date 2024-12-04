@@ -4,7 +4,7 @@
   margin-bottom: 6rem;
 
   &__title {
-    color: #505050;
+    color: #202124;
     display: inline-block;
     font-size: 2rem;
     font-weight: 500;
@@ -16,7 +16,7 @@
     }
 
     &::after {
-      border-bottom: 2px solid #d6d6d7;
+      border-bottom: 2px solid #dadce0;
       bottom: 0;
       content: "";
       left: 0;
@@ -27,7 +27,7 @@
   }
 
   &__description {
-    color: #888;
+    color: #3c4043;
     font-size: 1rem;
     margin-top: 0;
 
